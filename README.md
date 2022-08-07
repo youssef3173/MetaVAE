@@ -12,7 +12,7 @@ $ python meta_train.py --name mt_vae_results --meta_dataroot omniglot-py/images_
 ```
 2. test Meta_VAE on 5-shot:
 ```
-$ python fine_tuning.py --name mt_vae_results --meta_dataroot omniglot-py/images_background/ --k_spt 5 --k_qry 5 --update_step 100 --finetune_step 100 --test_epochs 500
+$ python fine_tuning.py --name mt_vae_results --meta_dataroot omniglot-py/images_background/ --k_spt 5 --k_qry 5 --update_step 100 --finetune_step 100 --test_epochs 50
 ```
 
 
